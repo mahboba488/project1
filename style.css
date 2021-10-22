@@ -153,6 +153,7 @@
     display: grid;
     grid-template-columns: repeat(3,1fr); 
     align-items: center;
+    width: auto;
 }
  h1{
     text-align: center;
@@ -171,7 +172,6 @@
 
 main{
     padding: 50px;
-    
     margin: 20px;
     width: 100%;
 
@@ -238,7 +238,7 @@ main{
 }
 
 #overtitle{
-    font-size: 60px;
+    font-size: 40px;
     color: #fff;
     text-align: center;
     margin: 0;
@@ -285,8 +285,175 @@ footer{
     text-align: center;
     padding-left: 40%;
     padding-right: 20px;
+    width: auto;
+    
+}
+
+@media only screen and (max-width:992px){
+    #header{
+        height: auto;
+        width: auto;
+        
+    }
+
+    #header #container{
+        height: auto;
+        width: auto;
+
+    }
+
+    #header .bg-container{
+        height: auto;
+        width: auto;
+
+    }
+
+   
+
+    .grid{
+        margin: 40px;
+        display: grid;
+        grid-gap: 5px;
+        grid-template-columns: repeat(1,1fr);
+        justify-content: center; 
+        align-items: center;
+        width: 50%;
+        
+     
+        
+    }
+    
+    .content-container h1{
+        color:#564FCC;
+        font-weight: 600;
+        font-size: 25px;
+        line-height: 0.9em;
+        margin-bottom: 30px;
+    }
+    .content-container p{
+        
+        line-height: 0.9em;
+        margin-bottom: 30px;
+        line-height: 1.8em;
+        font-weight: 200;
+    }
+
+    .title{
+        position: absolute;
+        top: 50%;
+        left: 10%;
+    }
+    
+    #overtitle{
+        font-size: 30px;
+        color: #fff;
+        text-align: center;
+        
+    
+    }
+
+    
+    
+    #overbutton{
+        border:none;
+        outline: none;
+        color: #6C63Ff;
+        background-color: #fff;
+        padding:16px 20px;
+        border-radius: 40px;
+        font-size: 16px;
+        width: 160px;
+        margin-top: 30px;
+        justify-content: center;
+        
+        
+    }
+
+}
+
+@media only screen and (max-width:700px){
+    nav{
+        width: 100%;
+        background: linear-gradient(#693aec,#3504bb);
+        position: absolute;
+        top:0;
+        right: 0;
+        z-index: 2;
+        color: #fff;
+    }
+
+    nav a{
+        display: block;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        color: #fff;
+    }
+
+    .grid{
+        margin: 40px;
+        display: grid;
+        grid-gap: 5px;
+        grid-template-columns: repeat(1,1fr); 
+        align-items: center;
+        width: auto;
+        
+     
+        
+    }
+
+    .content-container h1{
+        color:#564FCC;
+        font-weight: 500;
+        font-size: 50px;
+        line-height: 0.9em;
+        margin-bottom: 30px;
+        margin-top: 50px;
+    }
+    .content-container p{
+        
+        line-height: 0.9em;
+        margin-bottom: 30px;
+        line-height: 1.8em;
+        font-weight: 400;
+    }
+
+    .title{
+        position: absolute;
+        top: 30%;
+        left: 20%;
+    }
+
+    #overtitle{
+        font-size: 40px;
+        color: #fff;
+        text-align: center;
+        margin: 0;
+    }
+
+    #overbutton{
+        border:none;
+        outline: none;
+        color: #6C63Ff;
+        background-color: #fff;
+        padding:16px 20px;
+        border-radius: 40px;
+        font-size: 16px;
+        width: 160px;
+        margin-top: 30px;
+        justify-content: center;
+        
+        
+    }
+
     
 }
 
 
 
+   
+
+  
+    
+   
+
+   
