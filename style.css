@@ -19,7 +19,7 @@
     align-items: center;
 }
 nav{
-    background: #9975f3;
+    background: hsl(253, 90%, 62%);
     height: 80px;
     width: 100%;
 }
@@ -91,10 +91,11 @@ a:hover{
     ul{
         position: absolute;
         width: 100%;
-        height: 100vh;
+        height: 50vh;
         background: #2c3e50;
         top:80px;
         left: -100%;
+        opacity: 0.6;
 
         text-align: center;
         transition: all .5s;
@@ -131,10 +132,11 @@ a:hover{
         ul{
             position: absolute;
             width: 100%;
-            height: vh;
+            height:50vh;
             background: #2c3e50;
             top:80px;
             left: -100%;
+            opacity: 0.6;
     
             text-align: center;
             transition: all .5s;
@@ -173,6 +175,7 @@ a:hover{
             background: #2c3e50;
             top:80px;
             left: -100%;
+            opacity: 0.6;
     
             text-align: center;
             transition: all .5s;
